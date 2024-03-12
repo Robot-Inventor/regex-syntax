@@ -34,35 +34,6 @@ const html = highlighter.codeToHtml(code, {
 console.log(html);
 ```
 
-Also, you can install regex-syntax via npm.
-
-```bash
-npm install @robot-inventor/regex-syntax
-```
-
-```javascript
-import { getHighlighter } from "shiki";
-import regex from "@robot-inventor/regex-syntax";
-// You can also import JSON file directly
-// import regex from "@robot-inventor/regex-syntax/syntaxes/regex.tmLanguage.json" assert { type: "json" };
-
-const code = `
-^[a-zA-Z0-9.!#$%&'*+/=?^_\`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$
-`.trim();
-
-const highlighter = await getHighlighter({
-    langs: [regex],
-    themes: ["vitesse-dark"]
-});
-
-const html = highlighter.codeToHtml(code, {
-    lang: "regex",
-    theme: "vitesse-dark"
-});
-
-console.log(html);
-```
-
 ## Update Grammar
 
 To update the grammar file, run the following command. It automatically downloads the latest upstream grammar files and applies patches.

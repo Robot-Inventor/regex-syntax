@@ -7,7 +7,7 @@ Grammar files for syntax highlight of regex. The grammar files are automatically
 
 |Before|After|
 |:---:|:---:|
-|![before](docs/without-regex-syntax.png)|![after](docst/regex-syntax.png)|
+|![before](docs/without-regex-syntax.png)|![after](docs/regex-syntax.png)|
 
 ## Usage
 
@@ -42,9 +42,9 @@ npm install @robot-inventor/regex-syntax
 
 ```javascript
 import { getHighlighter } from "shiki";
-import regex from "regex-grammar";
+import regex from "@robot-inventor/regex-syntax";
 // You can also import JSON file directly
-// import regex from "regex-grammar/syntaxes/regex.tmLanguage.json" assert { type: "json" };
+// import regex from "@robot-inventor/regex-syntax/syntaxes/regex.tmLanguage.json" assert { type: "json" };
 
 const code = `
 ^[a-zA-Z0-9.!#$%&'*+/=?^_\`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$

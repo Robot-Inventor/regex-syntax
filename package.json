@@ -1,5 +1,5 @@
 {
-  "name": "regex-syntax",
+  "name": "regex-grammar",
   "version": "1.0.0",
   "description": "Grammar files for syntax highlight of regex.",
   "main": "dist/index.js",

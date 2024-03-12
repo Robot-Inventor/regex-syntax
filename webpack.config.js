@@ -1,5 +1,3 @@
-const CopyPlugin = require("copy-webpack-plugin");
-
 module.exports = {
     mode: "production",
     entry: "./src/index.ts",
@@ -17,15 +15,5 @@ module.exports = {
     },
     resolve: {
         extensions: [".ts", ".js"]
-    },
-    plugins: [
-        new CopyPlugin({
-            patterns: [
-                {
-                    from: "syntaxes",
-                    to: "syntaxes"
-                }
-            ]
-        })
-    ]
+    }
 };

@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "syntaxes"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -26,7 +27,6 @@
   "homepage": "https://github.com/Robot-Inventor/regex-syntax#readme",
   "devDependencies": {
     "@types/tar": "^6.1.11",
-    "copy-webpack-plugin": "^12.0.2",
     "rss-parser": "^3.13.0",
     "tar": "^6.2.0",
     "ts-loader": "^9.5.1",

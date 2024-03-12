@@ -34,10 +34,10 @@ const html = highlighter.codeToHtml(code, {
 console.log(html);
 ```
 
-Also, you can install regex-syntax via npm. (Note that the package name is ``regex-grammar`` not ``regex-syntax``)
+Also, you can install regex-syntax via npm.
 
 ```bash
-npm install regex-grammar
+npm install @robot-inventor/regex-syntax
 ```
 
 ```javascript

@@ -1,5 +1,5 @@
 {
-  "name": "regex-grammar",
+  "name": "@robot-inventor/regex-syntax",
   "version": "1.0.0",
   "description": "Grammar files for syntax highlight of regex.",
   "main": "dist/index.js",
@@ -10,6 +10,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ts-node ./scripts/generate.ts && webpack"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 {
   "name": "@robot-inventor/regex-syntax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Grammar files for syntax highlight of regex.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

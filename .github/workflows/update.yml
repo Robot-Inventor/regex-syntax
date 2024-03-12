@@ -28,7 +28,7 @@ jobs:
             - run: npm run build
             - name: Get current date
               run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
-            - uses: peter-evans/create-pull-request@v5
+            - uses: peter-evans/create-pull-request@v6
               with:
                   commit-message: "fix: update grammar file by schedule ${{ steps.date.outputs.date }}"
                   delete-branch: true

@@ -1,0 +1,39 @@
+{
+  "name": "regex-syntax",
+  "version": "0.1.0",
+  "description": "Grammar files for syntax highlight of regex.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ts-node ./scripts/generate.ts && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robot-Inventor/regex-syntax.git"
+  },
+  "author": "Robot-Inventor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robot-Inventor/regex-syntax/issues"
+  },
+  "homepage": "https://github.com/Robot-Inventor/regex-syntax#readme",
+  "devDependencies": {
+    "@types/tar": "^6.1.11",
+    "copy-webpack-plugin": "^12.0.2",
+    "rss-parser": "^3.13.0",
+    "tar": "^6.2.0",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@shikijs/core": "^1.1.7",
+    "shiki": "^1.1.7"
+  }
+}

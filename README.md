@@ -5,17 +5,24 @@ Grammar files for syntax highlight of regex. The grammar files are automatically
 > [!NOTE]
 > You may also be interested in [shell-session-syntax](https://github.com/Robot-Inventor/shell-session-syntax/) for syntax highlight of shell sessions.
 
-|Before|After|
-|:---:|:---:|
-|![before](docs/without-regex-syntax.png)|![after](docs/regex-syntax.png)|
+|                  Before                  |              After              |
+| :--------------------------------------: | :-----------------------------: |
+| ![before](docs/without-regex-syntax.png) | ![after](docs/regex-syntax.png) |
 
 ## Usage
 
-To use regex-syntax in [Shiki.js](https://shiki.style/), please download ``./syntaxes/regex.tmLanguage.json`` and load it as a custom language grammar. Language name is ``regex`` and ``regexp``.
+To use regex-syntax in [Shiki.js](https://shiki.style/), please download ``./syntaxes/regex.tmLanguage.json`` or install the package and load it as a custom language grammar. Language name is ``regex`` and ``regexp``.
 
-```javascript
+```bash
+npm install @robot-inventor/regex-syntax
+```
+
+```typescript
 import { getHighlighter } from "shiki";
-import regex from "./regex.tmLanguage.json" assert { type: "json" };
+// Directly import the downloaded file.
+import regex from "./regex.tmLanguage.json";
+// Or import the package.
+import regex from "@robot-inventor/regex-syntax";
 
 const code = `
 ^[a-zA-Z0-9.!#$%&'*+/=?^_\`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$

@@ -1,5 +1,11 @@
 # @robot-inventor/regex-syntax
 
+## 1.0.6
+
+### Patch Changes
+
+- [#30](https://github.com/Robot-Inventor/regex-syntax/pull/30) [`b57420f`](https://github.com/Robot-Inventor/regex-syntax/commit/b57420f03c856ad2ba5af7ae267852a3c1f7beb2) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - fix: change import assertion to import attribute
+
 ## 1.0.5
 
 ### Patch Changes

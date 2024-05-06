@@ -1,5 +1,11 @@
 # @robot-inventor/regex-syntax
 
+## 1.0.7
+
+### Patch Changes
+
+- [#34](https://github.com/Robot-Inventor/regex-syntax/pull/34) [`ac8e68f`](https://github.com/Robot-Inventor/regex-syntax/commit/ac8e68fa04ed7169b0acaa99ce96679528880e82) Thanks [@github-actions](https://github.com/apps/github-actions)! - fix: auto-update grammar file (2024-05-06)
+
 ## 1.0.6
 
 ### Patch Changes

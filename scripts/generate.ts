@@ -66,8 +66,8 @@ const main = async () => {
         ],
         lastUpdated: new Date().toISOString(),
         regexGrammarVersion: regex.version,
-        name: "regex",
-        aliases: ["regexp"],
+        name: "regexp",
+        aliases: ["regex"],
         ...regexGrammar
     };
 

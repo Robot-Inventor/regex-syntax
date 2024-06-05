@@ -4,11 +4,11 @@
         "Sources for this file are:",
         "https://github.com/github-linguist/linguist/"
     ],
-    "lastUpdated": "2024-06-03T01:01:09.411Z",
+    "lastUpdated": "2024-06-05T13:56:45.784Z",
     "regexGrammarVersion": "v7.29.0",
-    "name": "regex",
+    "name": "regexp",
     "aliases": [
-        "regexp"
+        "regex"
     ],
     "scopeName": "text.regex",
     "patterns": [

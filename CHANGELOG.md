@@ -1,5 +1,13 @@
 # @robot-inventor/regex-syntax
 
+## 2.0.0
+
+### Major Changes
+
+- [#71](https://github.com/Robot-Inventor/regex-syntax/pull/71) [`42daaef`](https://github.com/Robot-Inventor/regex-syntax/commit/42daaef3b9ab60dd1707f4e46aed0d8552440b11) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - fix: incompatibility with Shiki 1.6.0 #70
+
+  The canonical language name is now regexp, and regex continues to be available as an alias. Previously, regex was the canonical language name and regexp was the alias.
+
 ## 1.0.16
 
 ### Patch Changes

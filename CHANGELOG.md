@@ -1,5 +1,11 @@
 # @robot-inventor/regex-syntax
 
+## 2.0.4
+
+### Patch Changes
+
+- [#86](https://github.com/Robot-Inventor/regex-syntax/pull/86) [`403a917`](https://github.com/Robot-Inventor/regex-syntax/commit/403a9177fb23c308bc7c60fd2d448ec74af3a2e1) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps-dev): bump braces from 3.0.2 to 3.0.3
+
 ## 2.0.3
 
 ### Patch Changes

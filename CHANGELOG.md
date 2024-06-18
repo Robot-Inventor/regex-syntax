@@ -1,5 +1,11 @@
 # @robot-inventor/regex-syntax
 
+## 2.0.6
+
+### Patch Changes
+
+- [#94](https://github.com/Robot-Inventor/regex-syntax/pull/94) [`fe82059`](https://github.com/Robot-Inventor/regex-syntax/commit/fe82059cd4f3ffd20a812466a9287d0c2dcf0952) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency shiki to v1.7.0
+
 ## 2.0.5
 
 ### Patch Changes

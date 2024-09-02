@@ -1,5 +1,13 @@
 # @robot-inventor/regex-syntax
 
+## 2.0.16
+
+### Patch Changes
+
+- [#144](https://github.com/Robot-Inventor/regex-syntax/pull/144) [`cd68b9a`](https://github.com/Robot-Inventor/regex-syntax/commit/cd68b9a283f00c38e60b27e0bb629d47b5dd4fb5) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency shiki to v1.16.1
+
+- [#140](https://github.com/Robot-Inventor/regex-syntax/pull/140) [`017a2a4`](https://github.com/Robot-Inventor/regex-syntax/commit/017a2a430f0724dbd97b189e27d0743f82382b91) Thanks [@github-actions](https://github.com/apps/github-actions)! - fix: auto-update grammar file (2024-09-02)
+
 ## 2.0.15
 
 ### Patch Changes

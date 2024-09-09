@@ -4,8 +4,8 @@
         "Sources for this file are:",
         "https://github.com/github-linguist/linguist/"
     ],
-    "lastUpdated": "2024-09-02T01:09:05.105Z",
-    "regexGrammarVersion": "v7.30.0",
+    "lastUpdated": "2024-09-09T01:10:23.778Z",
+    "regexGrammarVersion": "v8.0.0",
     "name": "regexp",
     "aliases": [
         "regex"

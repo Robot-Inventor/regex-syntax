@@ -1,5 +1,13 @@
 # @robot-inventor/regex-syntax
 
+## 3.2.2
+
+### Patch Changes
+
+- [#241](https://github.com/Robot-Inventor/regex-syntax/pull/241) [`ca1f7e1`](https://github.com/Robot-Inventor/regex-syntax/commit/ca1f7e13eff515fee51fe249997fc0957ba8ef1d) Thanks [@github-actions](https://github.com/apps/github-actions)! - fix: auto-update grammar file (2025-08-11)
+
+- [#243](https://github.com/Robot-Inventor/regex-syntax/pull/243) [`ee9ae88`](https://github.com/Robot-Inventor/regex-syntax/commit/ee9ae88527c4f743e0efff8a74025b802b097023) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - ci: migrate from npm token to trusted publishing
+
 ## 3.2.1
 
 ### Patch Changes

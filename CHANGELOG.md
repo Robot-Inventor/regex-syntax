@@ -1,5 +1,11 @@
 # @robot-inventor/regex-syntax
 
+## 4.2.1
+
+### Patch Changes
+
+- [#332](https://github.com/Robot-Inventor/regex-syntax/pull/332) [`b05cfba`](https://github.com/Robot-Inventor/regex-syntax/commit/b05cfba1953fd61ec57b3bd3b3216c1b7bdd3d2e) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - chore: update vulnerable dependencies
+
 ## 4.2.0
 
 ### Minor Changes
